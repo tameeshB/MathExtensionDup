@@ -62,7 +62,7 @@ img.tex {
  *"Page becomes horizontally scrollable with certain formulae"
  *https://phabricator.wikimedia.org/T134281
 */
-dl > dd {
+.mwe-math-element {
     overflow-x: scroll;
     width: 100%;
 }
