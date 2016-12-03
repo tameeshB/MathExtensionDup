@@ -1,10 +1,13 @@
 AllCops:
+<<<<<<< HEAD
   Exclude:
     - 'extensions/**/*'
     - 'node_modules/**/*'
     - 'skins/**/*'
     - 'tests/frontend/node_modules/**/*'
     - 'vendor/**/*'
+=======
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
   StyleGuideCopsOnly: true
 
 Metrics/LineLength:

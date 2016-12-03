@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 # Repository management
 .svn
 
 # git-deploy status file:
 /.deploy
+=======
+.DS_Store
+/nbproject/private/
+tests/browser/.bundle
+tests/browser/.gem
+node_modules/
+vendor
+composer.lock
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
 
 # Editors
 *.kate-swp
@@ -11,6 +21,12 @@
 .#*
 .*.swp
 .project
+<<<<<<< HEAD
+=======
+.buildpath
+.classpath
+.settings
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
 cscope.files
 cscope.out
 *.orig
@@ -20,6 +36,7 @@ project.index
 ## Sublime
 sublime-*
 sftp-config.json
+<<<<<<< HEAD
 
 # MediaWiki install & usage
 /cache
@@ -71,3 +88,5 @@ Thumbs.db
 /tags
 /.htaccess
 /.htpasswd
+=======
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4

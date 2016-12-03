@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Change notes from older releases. For current info see RELEASE-NOTES-1.29.
 
 == MediaWiki 1.28 ==
@@ -15164,3 +15165,16 @@ going to run a public MediaWiki, so you can be notified of security fixes.
 === IRC help ===
 
 There's usually someone online in #mediawiki on irc.freenode.net
+=======
+Change notes from older releases. For current info see RELEASE-NOTES-3.0.0.
+
+== Math 2.0 ==
+
+=== Configuration changes in 2.0 ===
+* $wgLaTeXMLUrl was renamed to $wgMathLaTeXMLUrl
+* $wgLaTeXMLTimeout was renamed to $wgMathLaTeXMLTimeout
+* $wgMathValidModes is introduced:
+  It determines the selectable math rendering modes MW_MATH_(PNG|MATHML|...) in user preferences.
+* $wgUseLaTeXML becomes unnecessary use $wgMathValidModes[] = 'latexml';
+  to enable the LaTeXML rendering mode.
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4

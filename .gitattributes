@@ -1,3 +1,12 @@
+<<<<<<< HEAD
 *.sh eol=lf
 *.icc binary
 *.webp binary
+=======
+* text eol=lf
+*.png binary
+*.ico binary
+*.ppk binary
+*.eot binary
+*.woff binary
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4

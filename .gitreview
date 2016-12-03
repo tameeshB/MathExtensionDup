@@ -1,6 +1,11 @@
 [gerrit]
 host=gerrit.wikimedia.org
 port=29418
+<<<<<<< HEAD
 project=mediawiki/core.git
 track=1
 defaultrebase=0
+=======
+project=mediawiki/extensions/Math.git
+track=1
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4

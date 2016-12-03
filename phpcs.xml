@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<<<<<<< HEAD
 <ruleset name="MediaWiki">
 	<rule ref="vendor/mediawiki/mediawiki-codesniffer/MediaWiki" />
 	<rule ref="MediaWiki.NamingConventions.PrefixedGlobalFunctions">
@@ -34,4 +35,12 @@
 	<exclude-pattern>AdminSettings.php</exclude-pattern>
 	<exclude-pattern>LocalSettings.php</exclude-pattern>
 	<exclude-pattern>StartProfiler.php</exclude-pattern>
+=======
+<ruleset>
+	<rule ref="vendor/mediawiki/mediawiki-codesniffer/MediaWiki"/>
+	<file>.</file>
+	<arg name="extensions" value="php,php5,inc"/>
+	<arg name="encoding" value="utf8"/>
+	<exclude-pattern>vendor</exclude-pattern>
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
 </ruleset>

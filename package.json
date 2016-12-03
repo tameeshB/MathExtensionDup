@@ -1,14 +1,19 @@
 {
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "test": "grunt test",
     "doc": "jsduck",
     "postdoc": "grunt copy:jsduck"
+=======
+    "test": "grunt test"
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
   },
   "devDependencies": {
     "eslint-config-wikimedia": "0.3.0",
     "grunt": "1.0.1",
     "grunt-banana-checker": "0.5.0",
+<<<<<<< HEAD
     "grunt-contrib-copy": "1.0.0",
     "grunt-contrib-watch": "1.0.0",
     "grunt-eslint": "19.0.0",
@@ -20,6 +25,12 @@
     "karma-firefox-launcher": "1.0.0",
     "karma-qunit": "1.0.0",
     "qunitjs": "1.22.0",
+=======
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-eslint": "19.0.0",
+    "grunt-jsonlint": "1.0.7",
+    "grunt-stylelint": "0.6.0",
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
     "stylelint-config-wikimedia": "0.3.0"
   }
 }

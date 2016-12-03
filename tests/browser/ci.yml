@@ -1,4 +1,8 @@
 BROWSER:
+<<<<<<< HEAD
+=======
+  - chrome
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
   - firefox
 
 MEDIAWIKI_ENVIRONMENT:

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"name": "mediawiki/core",
 	"description": "Free software wiki application developed by the Wikimedia Foundation and others",
 	"keywords": ["mediawiki", "wiki"],
@@ -95,5 +96,19 @@
 			],
 			"merge-dev": false
 		}
+=======
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "0.9.2",
+		"mediawiki/mediawiki-codesniffer": "0.7.2"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor",
+			"phpcs -p -s"
+		],
+		"fix": [
+			"phpcbf -p"
+		]
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
 	}
 }

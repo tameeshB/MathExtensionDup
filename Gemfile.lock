@@ -1,9 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
+<<<<<<< HEAD
     ast (2.0.0)
     astrolabe (1.3.0)
       parser (>= 2.2.0.pre.3, < 3.0)
+=======
+    ast (2.1.0)
+    astrolabe (1.3.1)
+      parser (~> 2.2)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
     builder (3.2.2)
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
@@ -17,18 +23,28 @@ GEM
       faker (>= 1.1.2)
       yml_reader (>= 0.6)
     diff-lcs (1.2.5)
+<<<<<<< HEAD
     domain_name (0.5.20160615)
       unf (>= 0.0.5, < 1.0.0)
     faker (1.6.6)
+=======
+    domain_name (0.5.20160310)
+      unf (>= 0.0.5, < 1.0.0)
+    faker (1.6.3)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
       i18n (~> 0.5)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
     faraday-cookie_jar (0.0.6)
       faraday (>= 0.7.4)
       http-cookie (~> 1.0.0)
+<<<<<<< HEAD
     faraday_middleware (0.10.0)
       faraday (>= 0.7.4, < 0.10)
     ffi (1.9.14)
+=======
+    ffi (1.9.10)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
     gherkin (2.12.2)
       multi_json (~> 1.3)
     headless (2.2.3)
@@ -36,6 +52,7 @@ GEM
       domain_name (~> 0.5)
     i18n (0.7.0)
     json (1.8.3)
+<<<<<<< HEAD
     mediawiki_api (0.7.0)
       faraday (~> 0.9, >= 0.9.0)
       faraday-cookie_jar (~> 0.0, >= 0.0.6)
@@ -45,6 +62,16 @@ GEM
       headless (~> 2.0, >= 2.1.0)
       json (~> 1.8, >= 1.8.1)
       mediawiki_api (~> 0.7, >= 0.7.0)
+=======
+    mediawiki_api (0.6.0)
+      faraday (~> 0.9, >= 0.9.0)
+      faraday-cookie_jar (~> 0.0, >= 0.0.6)
+    mediawiki_selenium (1.7.1)
+      cucumber (~> 1.3, >= 1.3.20)
+      headless (~> 2.0, >= 2.1.0)
+      json (~> 1.8, >= 1.8.1)
+      mediawiki_api (~> 0.6, >= 0.6.0)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
       page-object (~> 1.0)
       rest-client (~> 1.6, >= 1.6.7)
       rspec-core (~> 2.14, >= 2.14.4)
@@ -56,7 +83,11 @@ GEM
     multi_test (0.1.2)
     multipart-post (2.0.0)
     netrc (0.11.0)
+<<<<<<< HEAD
     page-object (1.2.0)
+=======
+    page-object (1.1.1)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
       page_navigation (>= 0.9)
       selenium-webdriver (>= 2.44.0)
       watir-webdriver (>= 0.6.11)
@@ -66,7 +97,11 @@ GEM
       ast (>= 1.1, < 3.0)
     powerpack (0.1.1)
     rainbow (2.0.0)
+<<<<<<< HEAD
     rake (11.1.1)
+=======
+    rake (10.5.0)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -74,7 +109,11 @@ GEM
     rspec-core (2.99.2)
     rspec-expectations (2.99.2)
       diff-lcs (>= 1.1.3, < 2.0)
+<<<<<<< HEAD
     rubocop (0.32.1)
+=======
+    rubocop (0.33.0)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
       astrolabe (~> 1.3)
       parser (>= 2.2.2.5, < 3.0)
       powerpack (~> 0.1)
@@ -82,16 +121,28 @@ GEM
       ruby-progressbar (~> 1.4)
     ruby-progressbar (1.7.5)
     rubyzip (1.2.0)
+<<<<<<< HEAD
     selenium-webdriver (2.53.4)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
     syntax (1.2.1)
+=======
+    selenium-webdriver (2.53.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    syntax (1.2.0)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
     thor (0.19.1)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
+<<<<<<< HEAD
     watir-webdriver (0.9.3)
+=======
+    watir-webdriver (0.9.1)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
       selenium-webdriver (>= 2.46.2)
     websocket (1.2.3)
     yml_reader (0.7)
@@ -100,6 +151,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
   mediawiki_selenium (~> 1.7, >= 1.7.2)
   rake (~> 11.1, >= 11.1.1)
   rubocop (~> 0.32.1)
+=======
+  mediawiki_selenium (~> 1.7, >= 1.7.1)
+  rake (~> 10.5)
+  rubocop (~> 0.33.0)
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4

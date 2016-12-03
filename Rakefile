@@ -9,7 +9,11 @@ RuboCop::RakeTask.new(:rubocop) do |task|
 end
 
 require 'mediawiki_selenium/rake_task'
+<<<<<<< HEAD
 MediawikiSelenium::RakeTask.new(site_tag: false)
+=======
+MediawikiSelenium::RakeTask.new
+>>>>>>> 67051315168695b275b2764f39c13e761c567ef4
 
 task default: [:test]
 
